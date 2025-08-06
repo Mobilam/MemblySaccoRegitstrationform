@@ -1,0 +1,65 @@
+/* Base page styling */
+body {
+  background-color: #f9f9f9;
+}
+
+/* Header styling */
+h1 {
+  font-weight: 600;
+  color: #4d2e00;
+}
+
+/* Card header for each section */
+.card-header {
+  background-color: #663300 !important;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Form control inputs */
+.form-control,
+.form-select {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #996633;
+  box-shadow: 0 0 0 0.2rem rgba(153, 102, 51, 0.25);
+}
+
+/* Textareas specifically */
+textarea.form-control {
+  resize: vertical;
+  min-height: 80px;
+}
+
+/* Submit button */
+.btn-primary {
+  background-color: #663300;
+  border-color: #663300;
+  border-radius: 8px;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #552200;
+  border-color: #552200;
+}
+
+/* Responsive padding for cards */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+/* Section spacing */
+.card-body .row > .col-12,
+.card-body .row > .col-md-6 {
+  margin-bottom: 1rem;
+}
